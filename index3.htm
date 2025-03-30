@@ -11,10 +11,15 @@
     <!-- SEOのためのメタタグ -->
     <meta name="description" content="株式会社クリームの公式ホームページ。火災保険申請代行、プレミアムウォーター販売、営業代行、コールセンター事業を提供しています。">
     <meta name="keywords" content="クリーム, 火災保険, プレミアムウォーター, 営業代行, コールセンター">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CPJC545ZX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6CPJC545ZX');
+    </script>
 </head>
-<body>
-    <!-- ヘッダー -->
-    <header>
         <div class="header-container">
             <div class="logo">
                 <a href="#top">
@@ -351,9 +356,38 @@
             </section>
         </div>
     </main>
+    <!-- SNSシェアボタン -->
+    <section class="sns-share" style="text-align:center; padding: 2em;">
+        <p>このページをシェアする：</p>
+        <a href="https://twitter.com/intent/tweet?url=https://yourdomain.com&text=株式会社クリームの火災保険申請サポート" target="_blank" rel="noopener">Twitterでシェア</a> |
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourdomain.com" target="_blank" rel="noopener">Facebookでシェア</a>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <div class="container">
+            <p>&copy; 20205 クリーム. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">プライバシーポリシー</a>
+                <a href="#terms">利用規約</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOSライブラリのJavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- メインのJavaScript -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
 
     <!-- スクロールトップボタン -->
     <button id="scroll-top" title="トップに戻る" aria-label="トップに戻る">↑</button>
+    
 
     <!-- フッター -->
     <footer>
